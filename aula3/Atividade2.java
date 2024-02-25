@@ -1,5 +1,5 @@
 /*
- * Você precisa calcular o salário de um funcionário ao final do mês. No entanto, existem alguns 
+ Você precisa calcular o salário de um funcionário ao final do mês. No entanto, existem alguns 
 fatores que podem incrementar ou decrementar o salário deste funcionário. 
 • Se o funcionário faltou mais que 5 vezes no mês, ele deve ter o salário descontado em 
 15%;
@@ -17,8 +17,11 @@ public class Atividade2 {
     public static void main(String[] args) {
         // criando variaveis
         Scanner scan = new Scanner(System.in);
-        double salario = 1300.00;
         double novoSalario = 0;
+
+        System.out.println("Insira o valor de salario: ");
+        double salario = scan.nextDouble();
+        scan.reset();
 
         // trabalhando com as faltas
         System.out.println("insira a quantidade de faltas: ");

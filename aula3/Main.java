@@ -17,6 +17,6 @@ public class Main {
         } else if (opcao == 4) {
             Atividade4.main(args);
         }
-    scan.close();
+        scan.close();
     }
 }

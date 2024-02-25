@@ -1,4 +1,4 @@
-package cursoemvideoaula2;
+package cursoemvideoaula2.atividade1;
 
 public class Caneta {
     String model;

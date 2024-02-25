@@ -21,6 +21,7 @@ Em seguida, some todos os dígitos:
 Se a soma for divisível por 10, o número é válido. Este número é válido! Caso contrário, o número é 
 inválido. 
  */
+
 package aula3;
 
 import java.util.Scanner;
