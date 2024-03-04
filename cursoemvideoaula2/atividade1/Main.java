@@ -1,6 +1,6 @@
 package cursoemvideoaula2.atividade1;
 
-public class Aula2 {
+public class Main {
     public static void main(String[] args) {
         Caneta cA = new Caneta();
         cA.model = "bic";

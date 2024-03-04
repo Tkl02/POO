@@ -1,13 +1,13 @@
 package cursoemvideoaula2.atividade1;
 
 public class Caneta {
-    String model;
-    String cor;
-    float ponta;
-    int carga;
-    boolean tampa;
+    public String model;
+    public String cor;
+    public float ponta;
+    public int carga;
+    protected boolean tampa;
     
-    void status(){
+    public void status(){
         System.out.println("model: " + this.model);
         System.out.println("cor: " + this.cor);
         System.out.println("ponta: " + this.ponta);
@@ -15,7 +15,7 @@ public class Caneta {
         System.out.println("tampada: " + this.tampa);
     }
 
-    void rabisca (){
+    public void rabisca (){
         if(this.tampa == true)
             System.out.println("destampe a caneta!");
         if (this.tampa == false) {
@@ -27,11 +27,11 @@ public class Caneta {
 
     }
 
-    void tampar (){
+    public void tampar (){
         this.tampa = true;
     }
 
-    void destampar (){
+    public void destampar (){
         this.tampa = false;
     }
 }

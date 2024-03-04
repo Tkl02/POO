@@ -30,8 +30,8 @@ public class Main {
         conta1.depositar(1300);
         conta2.depositar(1500);
         // teste
-        System.out.println("saldo conta1 = " + conta1.getSaldo());
-        System.out.println("saldo conta2 = " + conta2.getSaldo());
+        System.out.println("saldo conta1 pos deposito = " + conta1.getSaldo());
+        System.out.println("saldo conta2 pos deposito = " + conta2.getSaldo());
 
         // sacando valor
         conta1.sacar(250);
