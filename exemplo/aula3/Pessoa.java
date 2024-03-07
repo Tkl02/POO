@@ -1,8 +1,8 @@
-package data;
+package exemplo.aula3;
 public class Pessoa {//POJO - Plain old Java Objects
   private String nome;
   private String cpf;
-  private String rg;
+  
 
   // public Pessoa(String cpf){
   //   this.cpf = cpf;
@@ -16,7 +16,6 @@ public class Pessoa {//POJO - Plain old Java Objects
   public Pessoa(String nome, String cpf, String rg){//RG Opcional
     this.nome = nome;
     this.cpf = cpf;
-    this.rg = rg;
    
   }
 
@@ -39,7 +38,7 @@ public class Pessoa {//POJO - Plain old Java Objects
 
   @Override
   protected void finalize() throws Throwable {
-    // TODO Auto-generated method stub
+    // todo Auto-generated method stub
     super.finalize();
   }
 

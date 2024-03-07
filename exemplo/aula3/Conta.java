@@ -1,4 +1,4 @@
-package data;
+package exemplo.aula3;
 public class Conta{
   private Pessoa titular;
   private String numero;
