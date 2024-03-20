@@ -1,27 +1,26 @@
 package exemplo.aula3;
-public class Pessoa {//POJO - Plain old Java Objects
+
+public class Pessoa {// POJO - Plain old Java Objects
   private String nome;
   private String cpf;
-  
 
   // public Pessoa(String cpf){
-  //   this.cpf = cpf;
+  // this.cpf = cpf;
   // }
 
-  public Pessoa(String nome, String cpf){//Nome e CPF são obrigatórios!
+  public Pessoa(String nome, String cpf) {// Nome e CPF são obrigatórios!
     this.nome = nome;
     this.cpf = cpf;
   }
 
-  public Pessoa(String nome, String cpf, String rg){//RG Opcional
+  public Pessoa(String nome, String cpf, String rg) {// RG Opcional
     this.nome = nome;
     this.cpf = cpf;
-   
-  }
 
+  }
 
   public String getNome() {
-    return this.nome;  
+    return this.nome;
   }
 
   public void setNome(String nome) {
@@ -34,12 +33,6 @@ public class Pessoa {//POJO - Plain old Java Objects
 
   public void setCpf(String cpf) {
     this.cpf = cpf;
-  }
-
-  @Override
-  protected void finalize() throws Throwable {
-    // todo Auto-generated method stub
-    super.finalize();
   }
 
 }
